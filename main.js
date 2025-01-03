@@ -22,4 +22,30 @@
 // function sum3(nums) {
     // return nums[0] + nums[1] + nums[2];
 //   }
-  
+
+//   5. https://the-winter.github.io/codingjs/exercise.html?name=rotateLeft3&title=Array-1
+
+// function rotateLeft3(nums) {
+//     let firstElement = nums.shift();
+//     nums.push(firstElement);
+//     return nums;
+//   }
+
+// 6.https://the-winter.github.io/codingjs/exercise.html?name=reverse3&title=Array-1
+
+// function reverse3(nums) {
+//     return nums.slice().reverse();
+//   }
+// 7.https://the-winter.github.io/codingjs/exercise.html?name=maxEnd3&title=Array-1
+
+// function maxEnd3(nums) {
+//     const maxValue = Math.max(nums[0], nums[2]);
+    
+//     return [maxValue, maxValue, maxValue];
+//   }
+
+// 8. https://the-winter.github.io/codingjs/exercise.html?name=sum2&title=Array-1
+
+// function sum2(nums) {
+//     return nums.length < 2 ? nums.reduce((a, b) => a + b, 0) : nums[0] + nums[1];
+// }
